@@ -1,0 +1,33 @@
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #C0C0C0;
+     background-color: #E0E0E0;
+    color: white;
+    outline: none;
+
+} 
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #C0C0C0;
+     background-color: #E0E0E0;
+    color: white;
+    outline: none;
+} 
+input[type=submit]{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+}

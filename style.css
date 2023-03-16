@@ -1,0 +1,182 @@
+body {
+    margin:0;
+
+}
+
+ul.topnav {
+    list-style-type: none;
+    padding:0.5%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 0.5%;
+    border: 2px solid black;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;     
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 4%;
+    padding: 15px 69px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 100%;
+}
+
+.d1{
+	background-color: gray;
+	margin-bottom:-1.1%;
+}
+
+.a-card {
+    /* Add shadows to create the "card" effect */
+    height:83%;
+	width:40%;
+	margin-top:4%;
+	margin-left:5%;
+    border: 2px solid #73AD21;
+    transition: 0.5s;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.a-card:hover {
+    box-shadow: 1px 10px 16px 1px green;
+}
+
+/* Add some padding inside the card container */
+.content {
+    padding: 2px 16px;
+}
+.a-img{
+    max-width: 100%;
+    height: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+.w-card {
+    /* Add shadows to create the "card" effect */
+    
+    height: 36%;
+	top:48.14%;
+    right:6%;
+	
+    width: 40%;
+	border: 2px solid blue;
+    transition: 0.5s;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.w-card:hover {
+    box-shadow: 1px 10px 16px 1px blue;
+}
+
+/* Add some padding inside the card container */
+.w-content {
+    padding: 1px 14px;
+}
+.w-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: 55;
+    width: 55%; 
+    
+      
+}
+
+.i-card {
+    /* Add shadows to create the "card" effect */
+    
+    top:100%;
+    left:5%;
+    height: 45.2%;
+    width: 40%;
+    border: 2px solid black;
+    transition: 0.5s;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.i-card:hover {
+    box-shadow: 1px 10px 16px 1px black;
+}
+
+/* Add some padding inside the card container */
+.content {
+    padding: 2px 16px;
+}
+.i-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: 70%;
+    width: 35%;
+}
+
+.m-card {
+    /* Add shadows to create the "card" effect */
+    
+    top: 100%;
+    right: 6%;
+    height: 45.2%;
+    width: 40%;
+    margin-left:50%;
+    transition: 0.3s;
+    border: 3px solid gray;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.m-card:hover {
+    box-shadow: 0 10px 16px 5px gray;
+}
+
+/* Add some padding inside the card container */
+.content {
+    padding: 2px 16px;
+}
+.m-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: 65%;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 27%;
+    
+}
+
+.bar{
+    border-left: 6px solid green;
+    height: 20%;
+    width: 30%;
+    margin-top:-408px;
+    
+}
