@@ -1,0 +1,176 @@
+/* Reset default browser CSS
+-------------------------------------------------------------- */
+*
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ol, ul {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+a img {
+	border: none;
+}
+a, a:link, a:visited {
+	text-decoration: none;
+	color:rgba(255,255,255,0.8);
+	border: none;
+	outline: none;
+}
+a:active, a:hover {
+	color: rgba(255,255,255,1);;
+	border: none;
+	outline: none;
+}
+
+p
+{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+/* Layout
+-----------------------------------------------------------------*/
+body
+{
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	background-color: #3669B5;
+	background-image: url(images/noise.png);
+	border-top:5px solid rgba(255,255,255,0.3);
+}
+
+h1, h2, h3, h4, h5, h6, a, label 
+{
+	text-transform: uppercase;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.alert-msg
+{
+	padding: 20px;
+	margin-top: 20px;
+	background:rgba(255,255,255,0.1);
+	border-left: 2px solid rgba(255,255,255,0.3);	
+}
+
+.main-container
+{
+	width:100%;
+	margin-top:100px;
+}
+
+.welcome-menu
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-right: 200px;
+	background:rgba(255,255,255,0.1);
+	border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.logout
+{
+	width: 100px;
+	margin-top:10px;
+	color: #ffffff;
+	font-size:14px;
+	margin-left: 10px;
+	background:rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.3);
+	border-radius: 3px;
+}
+
+
+.right
+{
+	float:right;
+}
+
+.menu
+{
+	padding: 10px;
+	background:rgba(255,255,255,0.1);
+	border-top: 2px solid rgba(255,255,255,0.3);
+	border-bottom: 2px solid rgba(255,255,255,0.3);	
+}
+
+.menu ul
+{
+	width:60%;
+	margin: 0 auto;
+}
+
+.menu li
+{
+	float: left;
+	margin-left: 20px;
+}
+.clear
+{
+	clear:both;
+}
+.container
+{
+	width:400px;
+	margin:100px auto;
+}
+
+.contact-form
+{
+	margin-top: 30px;
+}
+
+.form-group
+{
+	margin-top:10px;
+}
+
+.form-group label
+{
+	text-transform:uppercase;
+}
+
+.field
+{
+	width: 100%;
+	padding:5px;
+	color: #ffffff;
+	background:rgba(255,255,255,0.1);
+	border:none;
+	border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.field:focus, .submit:focus
+{
+	outline:none;
+}
+
+.submit
+{
+	width: 100%;
+	margin-top:20px;
+	color: #ffffff;
+	font-size:18px;
+	text-transform:uppercase;
+	background:rgba(255,255,255,0.1);
+	border:none;
+	border-top: 2px solid rgba(255,255,255,0.3);
+	border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+
+.submit:hover
+{
+	background:rgba(255,255,255,0.3);
+}
